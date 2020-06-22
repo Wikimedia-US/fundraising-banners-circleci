@@ -11,8 +11,8 @@ class LoginForm(unittest.TestCase):
 
         # Put your username and authkey below
         # You can find your authkey at crossbrowsertesting.com/account
-        self.username = "YOUR_USERNAME"
-        self.authkey  = "YOUR_AUTHKEY"
+        self.username = "jbolorinos-ctr@wikimedia.org"
+        self.authkey  = "uc6cf6ada9b2fb83"
 
         self.api_session = requests.Session()
         self.api_session.auth = (self.username,self.authkey)
